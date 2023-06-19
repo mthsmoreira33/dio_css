@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800;900&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(black, hsla(198, 100%, 15%, 0.756), black), url('./a479b0503d2b937cf56a8e1c83786419.png');
+    background-size: cover;
+    background-position: left bottom;
+    color: white;
+    padding: 40px
+}
+
+h1, h2 {
+    background: -webkit-linear-gradient(hsl(198, 70%, 70%), hsl(198, 70%, 35%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta {
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(hsl(198, 70%, 70%),
+        hsl(198, 70%, 25%));
+    border-image-slice: 1;
+    padding: 10px;
+    margin-top: 20px
+}
+
+h3 {
+    color: hsl(198, 70%, 40%);
+    letter-spacing: 5px
+}
+
+#logo-dio {
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+main {
+    color: white;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: rgba(51, 168, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0 30px 0;
+    gap: 20px
+}
+
+main p {
+    width: 40%;
+}
+
+.modulos {
+    width: 40%;
+    background: #252525;
+    border: 1px solid #33A8DB;
+    /* margin-top: 10px; */
+    text-align: center;
+    padding: 10px;
+    border-radius: 57px;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+}
+
+.banner {
+    background-image: url('./f6a960e70c3ed8254716011c5f5e6f04.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 363px;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: rgba(51, 168, 219);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 30px 0 30px 0;
+}
+
+#cases {
+    width: 600px
+}
+
+.banner p {
+    width: 244px;
+    color: white;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-weight: 900;
+    font-size: 40px;
+    margin-left: 20px
+}
+
+footer {
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 40px
+}
+
+span {
+    color:#33A8DB
+}
